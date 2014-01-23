@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <GridView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridView"
+            android:layout_gravity="center_horizontal"
+            android:numColumns="4"/>
+    <com.talenguyen.TaleSamples.widgets.ToggleStarButton
+            android:id="@+id/checkbox"
+            android:layout_width="39dp"
+            android:layout_height="29dp"
+            ></com.talenguyen.TaleSamples.widgets.ToggleStarButton>
+    <com.talenguyen.TaleSamples.widgets.ToggleStarButton
+            android:id="@+id/checkbox"
+            android:layout_width="39dp"
+            android:layout_height="29dp"
+            ></com.talenguyen.TaleSamples.widgets.ToggleStarButton>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+        <com.talenguyen.TaleSamples.widgets.ToggleStarButton
+                android:id="@+id/checkbox"
+                android:layout_width="39dp"
+                android:layout_height="29dp"
+                ></com.talenguyen.TaleSamples.widgets.ToggleStarButton>
+        <com.talenguyen.TaleSamples.widgets.ToggleStarButton
+                android:id="@+id/checkbox"
+                android:layout_width="39dp"
+                android:layout_height="29dp"
+                ></com.talenguyen.TaleSamples.widgets.ToggleStarButton>
+                  </LinearLayout>
+</LinearLayout>
+
